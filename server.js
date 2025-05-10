@@ -33,7 +33,7 @@ function calculateAverage(stock){
     });
     return (total/i);
 }
-
+// the correlation function
 function calculateCorrelation(stock1,stock2){
     const price1 = stock1.map(item => item.price);
     const price2 = stock2.map(item => item.price);
