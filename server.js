@@ -120,5 +120,4 @@ app.get("/stocks/:ticker", async (req, res)=>{
 
 app.listen(PORT, () => {
     console.log("SERVER LISTENING ON PORT: " + PORT);
-    console.log(new Date());
 })
