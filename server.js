@@ -23,7 +23,7 @@ async function authorization(){
     //console.log(`Bearer ${auth_token}`);
     return auth_token;
 }
-
+//implement calculate average
 function calculateAverage(stock){
     let total = 0;
     let i = 0;
