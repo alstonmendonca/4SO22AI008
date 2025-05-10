@@ -53,6 +53,7 @@ function calculateCorrelation(stock1,stock2){
     const correlation=numerator/denominator;
     return correlation;
 }
+//created stockcorrelation route
 app.get("/stocks/stockcorrelation", async(req,res)=>{
     const {minutes, ticker} = req.query;
     if (!ticker || !Array.isArray(ticker) || ticker.length !== 2){
