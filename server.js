@@ -88,6 +88,7 @@ app.get("/stocks/stockcorrelation", async(req,res)=>{
     
 });
 
+//created stock ticker route
 app.get("/stocks/:ticker", async (req, res)=>{
     const ticker = req.params.ticker;
     const { minutes, aggregation } = req.query;
